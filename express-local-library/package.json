@@ -12,10 +12,11 @@
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "ejs": "~2.6.1",
-    "pug": "2.0.0-beta11",
     "http-errors": "~1.6.3",
+    "moment": "^2.27.0",
     "mongoose": "^5.10.2",
-    "morgan": "~1.9.1"
+    "morgan": "~1.9.1",
+    "pug": "2.0.0-beta11"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
