@@ -1,15 +1,24 @@
 {
-  "name": "local-library",
-  "version": "1.0.0",
-  "description": "",
+  "name": "express-local-library",
+  "version": "0.0.0",
   "private": true,
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www",
+    "serverstart": "DEBUG=express-local-library:* npm run devstart"
   },
-  "author": "Daniel Chow",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "async": "^3.2.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "http-errors": "~1.6.3",
+    "moment": "^2.27.0",
+    "mongoose": "^5.10.2",
+    "morgan": "~1.9.1",
+    "pug": "2.0.0-beta11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
