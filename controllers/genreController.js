@@ -8,7 +8,7 @@ exports.genre_list = function(req, res, next) {
     Genre.find()
     .sort([['name', 'ascending']])
     .exec(function (err, list_genres){
-      if (err) {return nect(err); }
+      if (err) {return next(err); }
       res.render('genre_list.pug', {title: 'Genre List', genre_list: list_genres});
     });
     
