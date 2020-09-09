@@ -1,7 +1,8 @@
 # Local Library
 
 ## Project
-- Create a local library app using Node.js and Express
+- Create a local library app using Node.js and Express.
+- Access in browser at: https://young-wave-10417.herokuapp.com/
 
 
 ## Creating the Project Skeleton
